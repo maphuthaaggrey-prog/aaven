@@ -14,7 +14,7 @@ const Header = () => {
                 
                 <nav >
                 <div>
-                    <a href="/"><p className="logo"><span>Aa</span>ven</p></a>
+                    <a href="https://maphuthaaggrey-prog.github.io/aaven/"><p className="logo"><span>Aa</span>ven</p></a>
                 </div>
                     <ul className={menuOpen ? "nav ul open" : ""}>
                         <li>
