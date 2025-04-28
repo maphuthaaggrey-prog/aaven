@@ -3,9 +3,10 @@ import love from '../images/love.png'
 import like from '../images/like.png'
 const Reactions = ({ id }) => {
   const [selectedReaction, setSelectedReaction] = useState(null);
+
   const [reactions, setReactions] = useState({
-    love: 362,
-    like: 124,
+    love: 462,
+    like: 167,
   });
 
   useEffect(() => {
@@ -43,7 +44,7 @@ const Reactions = ({ id }) => {
   };
 
   return (
-      <div className="buttons" style={{width: '80%', margin: 'auto', zIndex: '999'}}>
+      <div className="buttons" style={{width: '80%', margin: '0 auto 1em', zIndex: '999'}}>
         <button  style={{margin: '0', padding: '0'}}
           onClick={() => handleReaction("love")}
           className={`love ${selectedReaction === "love" ? "active" : ""}`}
