@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
-
 import Header from './assets/components/Header';
 import Hero from './assets/components/Hero';
 import WhoAreWe from './assets/components/WhoAreWe';
@@ -25,14 +24,14 @@ function App() {
     });
 
     switch (currentSection) {
-      case "who-are-we":
-        setPageTitle("Who Are We");
+      case "about":
+        setPageTitle("ABOUT");
         break;
-      case "what-we-do":
-        setPageTitle("What We Do");
+      case "solutions":
+        setPageTitle("SOLUTIONS");
         break;
-      case "work-with-us":
-        setPageTitle("Work With Us");
+      case "inquiries":
+        setPageTitle("INQUIRIES");
         break;
       default:
         setPageTitle("Aaven");
@@ -57,16 +56,16 @@ function App() {
         <Hero />
       </section>
 
-      <section id="who-are-we">
+      <section id="about">
         <WhoAreWe />
       </section>
 
-      <section id="what-we-do">
+      <section id="solutions">
         <WhatWeDo />
         <Projects />
       </section>
 
-      <section id="work-with-us">
+      <section id="inquiries">
         <Footer />
       </section>
     </>

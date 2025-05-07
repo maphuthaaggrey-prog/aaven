@@ -4,7 +4,7 @@ const WhatWeDo = () => {
     <>
     <div className="wrapper">
     <div className="container">
-            <p className="header">WHAT WE DO</p>
+            <p className="header">SOLUTIONS</p>
             <br />
             <div className="split">
             <img src={whatwedo} className='image-description' style={{width:"320px"}}></img>
@@ -18,7 +18,7 @@ const WhatWeDo = () => {
                                             We don’t just build websites — we keep them running at their best. Our web administration services cover maintenance, security, updates, and performance optimization, ensuring your online presence is always strong, stable, and secure.</p>
             
             </div>
-            <p className="header" style={{marginTop: '2em', marginBottom: '0'}}>Projects</p>
+            <p className="header" style={{marginTop: '2em', marginBottom: '0', fontSize: '28px'}}>Projects</p>
         </div>
     </div>
     
