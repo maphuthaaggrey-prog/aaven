@@ -119,11 +119,10 @@ const Header = () => {
 
         document.addEventListener('mousedown', handleClickOutside);
 
-        // Clean up the event listener when the component unmounts or contactOpen changes
         return () => {
             document.removeEventListener('mousedown', handleClickOutside);
         };
-    }, [contactOpen]); // Re-run the effect when contactOpen changes
+    }, [contactOpen]); 
 
 
     return (
@@ -332,6 +331,7 @@ const Header = () => {
 
                     <input type="submit" value={loading ? "Submitting..." : "Submit"} name="send-message" className="submit-btn" disabled={loading}
                     />
+                    <p  onClick={handleClick}  style={{fontWeight: '700', textAlign: 'center', marginTop: '15px', fontSize: '14px', cursor: 'pointer'}}>Close</p>
                     {sendMsg && <p className="success-message">{sendMsg}</p>}
                 </form>
             </div>
