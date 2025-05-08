@@ -1,6 +1,7 @@
 import veteranbeatx from '../images/veteranbeatx.png'
 import majitamag from '../images/majitamag.png'
 import respectmyhustle from '../images/respectmyhustle.png'
+import contella from '../images/contella.png'
 
 export const projects = [
     {
@@ -29,6 +30,15 @@ export const projects = [
         type: "Personal Art Portfolio",
         tools: "React Js - Javascript - CSS",
         description: `Professional platform showcasing the creative work of a graphic designer focused on logo design, branding, and custom illustrations. The portfolio highlights Freeze’s ability to transform ideas into original visuals that capture the identity of brands, and businesses.`,
+    },
+    {
+        id: 4,
+        project: "Contella",
+        image: contella,
+        link: "https://maphuthaaggrey-prog.github.io/contella/",
+        type: "Blog - Video Streaming",
+        tools: "React Js - Javascript - CSS",
+        description: `Platform for streaming SA content creators by embedding their YouTube videos, making it easier to discover their content in one place. It features a blog that highlights the latest trends among the new gen of SA and includes biographies that share their stories.`,
     },
 
 ]
