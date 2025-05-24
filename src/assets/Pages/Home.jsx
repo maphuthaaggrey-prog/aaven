@@ -1,17 +1,12 @@
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
+import Hero from '../components/Hero.jsx';
+import WhoAreWe from '../components/WhoAreWe.jsx';
+import WhatWeDo from '../components/WhatWeDo.jsx';
+import Projects from '../components/Projects.jsx';
+import Footer from '../components/Footer.jsx'; // ✅ Missing import added
 
-// Components
-import Header from './assets/components/Header';
-import StartProject from './assets/components/StartProject.jsx';
-import Hero from './assets/components/Hero.jsx';
-import WhoAreWe from './assets/components/WhoAreWe.jsx';
-import WhatWeDo from './assets/components/WhatWeDo.jsx';
-import Projects from './assets/components/Projects.jsx';
-import Footer from './assets/components/Footer.jsx';
-
-function Home() {
+const Home = () => {
   const [pageTitle, setPageTitle] = useState("Aaven");
 
   const handleScroll = () => {
@@ -57,30 +52,21 @@ function Home() {
       <section id="aaven">
         <Hero />
       </section>
+
       <section id="about">
         <WhoAreWe />
       </section>
+
       <section id="solutions">
         <WhatWeDo />
         <Projects />
       </section>
+
       <section id="inquiries">
         <Footer />
       </section>
     </>
   );
-}
+};
 
-function App() {
-  return (
-    <Router>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/startproject" element={<StartProject /> } />
-      </Routes>
-    </Router>
-  );
-}
-
-export default App;
+export default Home;

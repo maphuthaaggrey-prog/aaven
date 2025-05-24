@@ -94,7 +94,7 @@ nav ul {
     z-index: 999;
     top: 0;
     right: 0;
-    height: 500px;
+    height: 100svh;
     list-style: none;
     border-radius: 20px;
     backdrop-filter: blur(50em);
@@ -123,26 +123,19 @@ nav ul li:last-of-type {
             border: none;
             
         }
-nav ul li a {
+nav ul li .nav-link-btn {
             text-decoration: none;
             color: white;
             font-size: 1rem;
             transition: all .2s ease-in-out;
 }
-nav ul li a:hover {
+nav ul li .nav-link-btn:hover {
                 font-weight: 700;
                 color: var(--tertiary);
-                filter: drop-shadow(0 2px 7px rgba(237, 255, 233, 0.438));
             }
 
-nav ul li a:active,
-nav ul li a:focus,
-section:target ~ nav ul li a[href="#what-are-we"], 
-section:target ~ nav ul li a[href="#what-we-do"],
-section:target ~ nav ul li a[href="#work-with-us"],
-#Hero:target ~ nav ul li a[href="#what-are-we"], 
-#About:target ~ nav ul li a[href="#what-we-do"],
-#Projects:target ~ nav ul li a[href="#work-with-us"] {
+nav ul li .nav-link-btn:active,
+nav ul li a:active {
     color: var(--tertiary);
     font-weight: 600; 
 
@@ -442,12 +435,8 @@ li .start-project:hover {
   animation: rotate 2s infinite ease-in-out;
 
 }
- form {
-  width: 85%;
-  max-width: 400px;
-  min-width: 200px;
-  margin: 0 auto;
-  padding-bottom: 2em;
+.footer-cont form {
+  margin: auto;
 }
  fieldset {
   border: none;
@@ -545,45 +534,19 @@ select {
   transition: all .2s ease-in-out;
   cursor: pointer;
 }
-
-
-
-
-
-
-
-.project-cont {
-  opacity: 0;
-  transition: opacity .2s ease-in-out;
-  pointer-events: none; 
-}
-.project-cont.open-cont {
-  opacity: 1;
-  pointer-events: auto;
+#project-cont {
+  margin-bottom: 5em;
 }
 
 #project-cont form {
-  filter: drop-shadow(0 0 0 rgba(123, 56, 199, 0.1));
-  width: 90vw;
-  border: 1px solid var(--tertiary);
+  width: 90%;
   max-width: 1000px;
   min-width: 320px;
-  max-height: 75vh;
-  margin: 0 auto;
-  position: fixed;
-  z-index: 9999;
+  margin: 7em auto 1em;
   font-size: 13px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  box-shadow: 1px 12px 29px rgba(0, 0, 0, 3);
-  list-style: none;
-  border-radius: 8px;
-  background: rgba(17, 17, 17, 10);
   color: var(--tertiary);
-  padding: 2em 3em 4em;
-  overflow-y: auto; 
 }
+
 .budget {
   margin-top: 6px;
 }
@@ -600,15 +563,7 @@ select {
   margin: 0;
   margin-bottom: 4px;
 }
-#project-cont form::-webkit-scrollbar {
-  width: 6px;
-}
-#project-cont form::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-}
-#project-cont form::-webkit-scrollbar-track{
-  display: none
-}
+
 input[type="radio"] {
   display: none;
 }
@@ -675,7 +630,10 @@ input[type="radio"]:checked + label:after {
       transform: translateX(0);
       transition: transform 0.5s ease-in-out;
   }
-  .navbar nav ul li {
+  .nav-link-btn {
+     margin-top: .5em;
+  }
+  .navbar nav ul li   {
       list-style: none;
       display: flex;
       margin: auto;
@@ -756,13 +714,5 @@ input[type="radio"]:checked + label:after {
 }
 .footer-cont form {
   max-width: 600px;
-}
-#project-cont form {
- 
-  max-height: 90vh;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -60%);
-
 }
 }
