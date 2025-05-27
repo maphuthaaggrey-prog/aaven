@@ -1,4 +1,4 @@
-import { projects } from '../components/Projects.js'
+import { projects } from '../data/Projects.js'
 import { useState, useEffect } from 'react'
 import Reactions from './Reactions';
 const Projects = () => {
@@ -10,9 +10,9 @@ const Projects = () => {
     }, []);
     
     return ( 
-        <>
-        <section className="hero-about">
-            <div className="about-hero">
+        <div className='wrap'>
+                    <p className="heading">OUR WORK</p>
+                    <p className='text003'>This is what we’ve worked on — a showcase of digital projects built to sharpen our skills and explore creative ideas. From sleek portfolio sites to custom web apps and interactive designs, each project highlights our passion for web development and attention to detail. These works represent our journey, growth, and the kind of experiences we’re capable of creating. Every layout, every feature, and every interaction tells a story — and this is ours.</p>
                 <div className="project-info">
                         {Projects.map((project) => (
                             <div className="project">
@@ -34,13 +34,8 @@ const Projects = () => {
                        
                
                          ))}
-                 </div>
-            </div> 
-        </section>   
-
-        
-        
-        </>
+                 </div>  
+        </div>
      );
 }
  

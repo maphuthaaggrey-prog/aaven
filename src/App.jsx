@@ -1,86 +1,31 @@
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import { useState, useEffect } from 'react';
-import { Helmet } from 'react-helmet';
-
-// Components
-import Header from './assets/components/Header';
-import StartProject from './assets/components/StartProject.jsx';
-import Hero from './assets/components/Hero.jsx';
-import WhoAreWe from './assets/components/WhoAreWe.jsx';
-import WhatWeDo from './assets/components/WhatWeDo.jsx';
-import Projects from './assets/components/Projects.jsx';
-import Footer from './assets/components/Footer.jsx';
-
-function Home() {
-  const [pageTitle, setPageTitle] = useState("Aaven");
-
-  const handleScroll = () => {
-    const sections = document.querySelectorAll("section");
-    let currentSection = "aaven";
-
-    sections.forEach((section) => {
-      const sectionTop = section.offsetTop;
-      const sectionHeight = section.offsetHeight;
-
-      if (window.scrollY >= sectionTop - sectionHeight / 3) {
-        currentSection = section.getAttribute("id");
-      }
-    });
-
-    switch (currentSection) {
-      case "about":
-        setPageTitle("ABOUT");
-        break;
-      case "solutions":
-        setPageTitle("SOLUTIONS");
-        break;
-      case "inquiries":
-        setPageTitle("INQUIRIES");
-        break;
-      default:
-        setPageTitle("Aaven");
-        break;
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+import Header from "./assets/Components/Header"
+import About from "./assets/Components/About"
+import Services from "./assets/Components/Services"
+import Home from "./assets/Pages/Home"
+import ScrollToTop from './assets/Components/ScrollToTop'
+import StartProject from './assets/Components/StartProject'
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'
+import Contact from "./assets/Components/Contact"
+import Projects from "./assets/Components/Projects"
+function App() {
 
   return (
     <>
-      <Helmet>
-        <title>{pageTitle}</title>
-      </Helmet>
-
-      <section id="aaven">
-        <Hero />
-      </section>
-      <section id="about">
-        <WhoAreWe />
-      </section>
-      <section id="solutions">
-        <WhatWeDo />
-        <Projects />
-      </section>
-      <section id="inquiries">
-        <Footer />
-      </section>
-    </>
-  );
-}
-
-function App() {
-  return (
     <Router>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/startproject" element={<StartProject /> } />
-      </Routes>
-    </Router>
-  );
+        <Header />
+        <ScrollToTop />
+        <Routes>
+            <Route path="/" element={<Home />}/>
+            <Route path="/startproject" element={<StartProject />}/>
+            <Route path="/contact" element={<Contact />}/>
+            <Route path="/about" element={<About />}/>
+            <Route path="/services" element={<Services />}/>
+            <Route path="/ourwork" element={<Projects />}/>
+        </Routes>
+
+      </Router>
+    </>
+  )
 }
 
-export default App;
+export default App
