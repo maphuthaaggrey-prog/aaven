@@ -9,6 +9,7 @@ import Contact from "./assets/Components/Contact"
 import Projects from "./assets/Components/Projects"
 import Footer from "./assets/components/Footer"
 import FAQ from "./assets/Components/FAQ"
+import CursorFollower from './assets/Components/CursorComponent'
 import PrivacyPolicy from "./assets/Components/Privacy"
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
     <>
     <Router>
         <Header />
+        <CursorFollower />
         <ScrollToTop />
         <Routes>
             <Route path="/" element={<Home />}/>
