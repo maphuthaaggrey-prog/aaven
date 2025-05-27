@@ -11,7 +11,7 @@ export const projects = [
         tools: "React Js - Javascript - CSS",
         link: "https://www.majitamag.co.za",
         type: "Blog - Magazine",
-        description: "Majita Mag is a platform designed to spotlight music, lifestyle, and entertainment. The blog shares the latest updates on new music releases, local events, artist features, and community highlights.",
+        description: "Majita Mag is a platform designed to spotlight music, lifestyle, and entertainment. ",
     },
     {
         id: 2,
@@ -20,7 +20,7 @@ export const projects = [
         link: "https://tinyurl.com/veteranbeatx",
         type: "Personal Music Website",
         tools: "React Js - Javascript - CSS",
-        description: `This website is a collection of music that Veteran Beatx has been part of. It showcases all the songs, albums, and projects he helped create — whether by producing, mixing, mastering, or collaborating.`,
+        description: `This website is a collection of music that Veteran Beatx has been part of. `,
     },
     {
         id: 3,
@@ -29,7 +29,7 @@ export const projects = [
         link: "https://maphuthaaggrey-prog.github.io/freeze/",
         type: "Personal Art Portfolio",
         tools: "React Js - Javascript - CSS",
-        description: `Professional platform showcasing the creative work of a graphic designer focused on logo design, branding, and custom illustrations. The portfolio highlights Freeze’s ability to transform ideas into original visuals that capture the identity of brands, and businesses.`,
+        description: `Professional platform showcasing the creative work of a graphic designer focused on logo design, branding, and custom illustrations.`,
     },
     {
         id: 4,
@@ -38,7 +38,7 @@ export const projects = [
         link: "https://maphuthaaggrey-prog.github.io/contella/",
         type: "Blog - Video Streaming",
         tools: "React Js - Javascript - CSS",
-        description: `Platform for streaming SA content creators by embedding their YouTube videos, making it easier to discover their content in one place. It features a blog that highlights the latest trends among the new gen of SA and includes biographies that share their stories.`,
+        description: `Platform for streaming SA content creators by embedding their YouTube videos, making it easier to discover their content in one place. `,
     },
 
 ]
