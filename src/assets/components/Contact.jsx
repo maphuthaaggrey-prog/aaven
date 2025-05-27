@@ -1,7 +1,5 @@
 import { useState } from "react";
-import gitHub from '../images/icons8-facebook-60.png';
-import gMail from '../images/icons8-gmail (1) 1.png';
-import whatsapp from '../images/icons8-whatsapp-60.png';
+
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -148,18 +146,7 @@ const Contact = () => {
       {sendMsg && <p className="send-msg">{sendMsg}</p>}
       <br />
       <br />
-      <p className="text003" style={{ textAlign: 'end' }}>For better communication</p>
-      <div className="social-icons">
-        <a href="https://facebook.com/maphutha.agree" target="_blank" rel="noopener noreferrer">
-          <img src={gitHub} className='icon' alt="Facebook" />
-        </a>
-        <a href="mailto:maphuthaaggrey83@gmail.com">
-          <img src={gMail} className='icon' alt="Gmail" />
-        </a>
-        <a href="https://wa.link/hxnh0o" target="_blank" rel="noopener noreferrer">
-          <img src={whatsapp} className='icon' alt="WhatsApp" />
-        </a>
-      </div>
+
     </div>
   );
 };
