@@ -1,9 +1,9 @@
-import Header from "./assets/Components/Header"
 import About from "./assets/Components/About"
 import Services from "./assets/Components/Services"
 import Home from "./assets/Pages/Home"
 import ScrollToTop from './assets/Components/ScrollToTop'
-import StartProject from './assets/Components/StartProject'
+import StartProject from "./assets/components/StartProject"
+import Header from "./assets/components/Header"
 import { HashRouter as Router, Route, Routes } from 'react-router-dom'
 import Contact from "./assets/Components/Contact"
 import Projects from "./assets/Components/Projects"
