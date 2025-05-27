@@ -24,21 +24,21 @@ export const projects = [
     },
     {
         id: 3,
-        project: "Respect My Hustle",
-        image: respectmyhustle,
-        link: "https://maphuthaaggrey-prog.github.io/freeze/",
-        type: "Personal Art Portfolio",
-        tools: "React Js - Javascript - CSS",
-        description: `Professional platform showcasing the creative work of a graphic designer focused on logo design, branding, and custom illustrations.`,
-    },
-    {
-        id: 4,
         project: "Contella",
         image: contella,
         link: "https://maphuthaaggrey-prog.github.io/contella/",
         type: "Blog - Video Streaming",
         tools: "React Js - Javascript - CSS",
         description: `Platform for streaming SA content creators by embedding their YouTube videos, making it easier to discover their content in one place. `,
+    },
+    {
+        id: 4,
+        project: "Respect My Hustle",
+        image: respectmyhustle,
+        link: "https://maphuthaaggrey-prog.github.io/freeze/",
+        type: "Personal Art Portfolio",
+        tools: "React Js - Javascript - CSS",
+        description: `Professional platform showcasing the creative work of a graphic designer focused on logo design, branding, and custom illustrations.`,
     },
 
 ]

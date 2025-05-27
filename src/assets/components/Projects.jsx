@@ -16,7 +16,7 @@ const Projects = () => {
     useEffect(() => {
         const timeout = setTimeout(() => {
             setIsLoading(false);
-        }, 3000); // 5000 ms = 5 seconds
+        }, 1000); // 5000 ms = 5 seconds
 
         if (Projects.length > 0 && imagesLoaded === Projects.length) {
             setIsLoading(false);

@@ -31,6 +31,12 @@ const WhoAreWe = () => {
                      <p className='team-name'>Aggrey Maphutha</p>
                      <p className='team-role'>Web Administrator</p>
                 </div>
+                <div className="team-box">
+                     <img src={aggrey} className='team-member'></img>
+                     <p className="line"></p>
+                     <p className='team-name'>Aggrey Maphutha</p>
+                     <p className='team-role'>Back End Developer</p>
+                </div>
 
             </div>
         </div>

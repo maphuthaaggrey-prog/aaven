@@ -7,6 +7,9 @@ import StartProject from './assets/Components/StartProject'
 import { HashRouter as Router, Route, Routes } from 'react-router-dom'
 import Contact from "./assets/Components/Contact"
 import Projects from "./assets/Components/Projects"
+import Footer from "./assets/components/Footer"
+import FAQ from "./assets/Components/FAQ"
+import PrivacyPolicy from "./assets/Components/Privacy"
 function App() {
 
   return (
@@ -21,8 +24,10 @@ function App() {
             <Route path="/about" element={<About />}/>
             <Route path="/services" element={<Services />}/>
             <Route path="/ourwork" element={<Projects />}/>
+            <Route path="/faq" element={<FAQ />}/>
+            <Route path="/privacy-policy" element={<PrivacyPolicy />}/>
         </Routes>
-
+      <Footer />
       </Router>
     </>
   )
