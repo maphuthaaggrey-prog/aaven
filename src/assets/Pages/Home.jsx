@@ -1,4 +1,5 @@
 import Hero from "../Components/Hero";
+import Banner from "../Components/Banner";
 
 const Home = () => {
     return ( 
@@ -6,6 +7,7 @@ const Home = () => {
     <>
     <div className="wrap">
         <Hero />
+        <Banner />
     </div>
       
     </> );

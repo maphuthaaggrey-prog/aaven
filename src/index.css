@@ -198,7 +198,7 @@ nav ul li a:active {
     z-index: 2;
 }
 main div .text001 {
-    font-size: 11vw;
+    font-size: 11.2vw;
     font-weight: 800;
     max-width: 100%;
     white-space: nowrap;
@@ -209,7 +209,7 @@ main {
     margin-top: 3em;
 }
 main div .text002 {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: normal;
     margin-top: 3em;
     color: rgb(187, 187, 187)
@@ -220,7 +220,7 @@ main div .text002 {
     margin: 2em 0;
 }
 .text003 {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: normal;
     margin-top: 1em;
     color: rgb(187, 187, 187)
@@ -315,17 +315,18 @@ main div .text002 {
     background-color: rgb(14, 14, 14);
     border-radius: 30px;
     margin: 2em auto;
-    height: 480px;
+    height: 510px;
     cursor: pointer;
   }
   .project-image {
     width: 290px;
     display: flex;
+    transform: scale(1.04);
     margin: auto;
     transition: all .3s ease-in-out;
   }
   .project img:hover {
-    transform: scale(1.02);
+    transform: scale(1.07);
     filter: drop-shadow(0 2px 1px var(--tertiary));
   }
   .project p {
@@ -510,6 +511,31 @@ select {
     width: 30px;
     opacity: 60%;
 }
+.banner001 {
+  margin-top: 5em;
+  height: auto;
+  padding: 3em;
+  padding-bottom: 7em;
+  border-radius: 30px;
+  background: 
+    linear-gradient(180deg, rgba(17, 17, 17, 0.9) 0%, rgba(26, 26, 26, 0.034) 100%),
+    url(./assets/images/pexels-picjumbo-com-55570-196645.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: top;
+}
+.banner001 .contact {
+  display: flex;
+  justify-content: end;
+  margin-top: 4em;
+}
+.text004 {
+  color: var(--primary);
+  font-size: 50px;
+  font-weight: 400;
+}
 @media (min-width: 930px) {
     .openmenu111 {
         display: none;
@@ -560,6 +586,7 @@ select {
 
     main{
         display: flex;
+        gap: 3em;
     }
     main div .text002 {
        margin-left: 0em;
