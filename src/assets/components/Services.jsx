@@ -1,4 +1,7 @@
 import { Link } from 'react-router-dom'
+import mockup1 from '../images/ipad-pro-mockup.png'
+import mockup2 from '../images/simple-stationery-mockup.png'
+import mockup3 from '../images/dark-iphone-mockup.png'
 const WhatWeDo = () => {
     return ( 
     <>
@@ -16,6 +19,29 @@ const WhatWeDo = () => {
                                             We don’t just build websites — we keep them running at their best. Our web administration services cover maintenance, security, updates, and performance optimization, ensuring your online presence is always strong, stable, and secure.</p>
             
             </div>
+            <div className="mockups">
+                <img src={mockup1} className='mockup-img'></img>
+                <img src={mockup2} className='mockup-img'></img>
+                <img src={mockup3} className='mockup-img'></img>
+            </div>
+            <p className='text003'>We design and develop with mobile users in mind from the start. Our mobile-first approach ensures your site delivers a seamless experience no matter the screen size, making it accessible and user-friendly on smartphones and tablets.</p>
+
+            <div className="stack">
+            <p className="heading">OUR TOOLS</p>
+                <ul>
+                    <li>React</li>
+                    <li>Next JS</li>
+                    <li>Javascript</li>
+                    <li>PHP</li>
+                    <li>MySQL</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Figma</li>
+                    <li>Adobe XD</li>
+                    <li>Indesign</li>
+                    <li>Photoshop</li>
+                </ul>
+            </div>
             <div className="buttons001">
                         <div className="start-project">
                             <Link to="/startproject"><button>Start Project
@@ -25,7 +51,8 @@ const WhatWeDo = () => {
                                 </button></Link>
                         </div>
             </div>
-         {/*    <div className="columns-wrap">
+
+          <div className="columns-wrap">
                 <div className="columns">
                             <p className="sub-heading">Performance & SEO Optimization</p>
                             <p className='text003'>We optimize your website for speed, search engines, and overall performance. From image compression and code cleanup to implementing SEO best practices, we make sure your site not only looks good but ranks well too.</p>
@@ -34,11 +61,7 @@ const WhatWeDo = () => {
                             <p className="sub-heading">Analytics & Insights</p> 
                             <p className='text003'>Understanding how users interact with your site is key to growth. We integrate tools like Google Analytics and tracking systems to help you measure traffic, engagement, and performance — giving you data-driven insights to guide future improvements.</p>
                 </div>
-                    <div className="columns">
-                            <p className="sub-heading">Mobile-First Approach</p> 
-                            <p className='text003'>We design and develop with mobile users in mind from the start. Our mobile-first approach ensures your site delivers a seamless experience no matter the screen size, making it accessible and user-friendly on smartphones and tablets.</p>
-                    </div>
-                </div>  */}
+                </div> 
             </div>
     </div>
     
