@@ -169,6 +169,7 @@ nav ul li a:active {
 .contact button, .start-project button  {
     background-color: var(--primary);
     height: 40px;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
