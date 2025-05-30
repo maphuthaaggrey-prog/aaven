@@ -227,6 +227,12 @@ main div .text002, .text002 {
     margin-top: 1em;
     color: rgb(187, 187, 187)
 }
+.text003 a {
+  font-size: 17px;
+  font-weight: normal;
+  text-decoration: underline;
+  color: rgb(187, 187, 187)
+}
 .background-blur {
     position: absolute;
     width: 240px;
@@ -593,7 +599,7 @@ footer .navbar {
 .explore p, .copyright p {
   font-size: 14px;
   color: grey;
-  margin: .3em 0 .5em;
+  margin: 1.2em 0 .5em;
 }
 .explore p a {
   font-size: 14px;

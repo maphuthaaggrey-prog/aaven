@@ -31,7 +31,7 @@ const FAQ = () => {
                 <br/>
 
                 <p className='heading' style={{fontSize: '30px', marginTop: '1em'}}>How do I get started?</p>
-                <p  className='text003'>Just head over to our <Link to="/contact">Contact page</Link> and fill out the form—or email us directly at <a href="mailto:hello@aaven.co.za">hello@aaven.co.za</a>. We’ll set up a free consultation to learn about your project.</p>
+                <p  className='text003'>Just head over to our <Link to="/contact">Contact page</Link> and fill out the form—or email us directly at <a href="mailto:maphuthaaggrey83@gmail.com">maphuthaaggrey83@gmail.com</a>. We’ll set up a free consultation to learn about your project.</p>
                 <br/>
 
                 <p className='heading' style={{fontSize: '30px', marginTop: '1em'}}>What happens to the information I share with Aaven?</p>

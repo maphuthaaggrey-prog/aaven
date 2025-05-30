@@ -24,7 +24,7 @@ const PrivacyPolicy = () => {
                 <br />
 
                 <p className="heading" style={{ fontSize: '30px', marginTop: '1em' }}>Your Rights</p>
-                <p className="text003">You have the right to access, update, or request deletion of your personal data at any time. To do this, simply contact us via our <Link to="/contact">Contact page</Link> or email us at <a href="mailto:hello@aaven.co.za">hello@aaven.co.za</a>.</p>
+                <p className="text003">You have the right to access, update, or request deletion of your personal data at any time. To do this, simply contact us via our <Link to="/contact">Contact page</Link> or email us at <a href="mailto:maphuthaaggrey83@gmail.com">maphuthaaggrey83@gmail.com</a>.</p>
                 <br />
 
                 <p className="heading" style={{ fontSize: '30px', marginTop: '1em' }}>Changes to This Policy</p>
@@ -32,7 +32,7 @@ const PrivacyPolicy = () => {
                 <br />
 
                 <p className="heading" style={{ fontSize: '30px', marginTop: '1em' }}>Contact Us</p>
-                <p className="text003">If you have any questions about this Privacy Policy or how we handle your data, don’t hesitate to reach out to us at <a href="mailto:hello@aaven.co.za">hello@aaven.co.za</a>.</p>
+                <p className="text003">If you have any questions about this Privacy Policy or how we handle your data, don’t hesitate to reach out to us at <a href="mailto:maphuthaaggrey83@gmail.com">maphuthaaggrey83@gmail.com</a>.</p>
             </div>
         </>
     );
