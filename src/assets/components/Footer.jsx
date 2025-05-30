@@ -59,8 +59,10 @@ const Footer = () => {
                 <p><Link to="/about">About</Link></p>
                 <p><Link to="/services">Services</Link></p>
                 <p><Link to="/ourwork">Our Work</Link></p>
+                <p><Link to="/startproject">Start Project</Link></p>
                 <p><Link to="/faq">FAQ</Link></p>
                 <p><Link to="/privacy-policy">Privacy Policy</Link></p>
+                <p><Link to="/buy-us-a-coffee">Buy Us A Coffee</Link></p>
             </div>
             <div className="copyright">
             <p>&copy; {currentTime} Aaven Agency</p>

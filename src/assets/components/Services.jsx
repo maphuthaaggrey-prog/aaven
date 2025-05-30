@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import mockup1 from '../images/ipad-pro-mockup.png'
 import mockup2 from '../images/simple-stationery-mockup.png'
 import mockup3 from '../images/dark-iphone-mockup.png'
+import BuyCoffee from './BuyCoffee'
 const WhatWeDo = () => {
     return ( 
     <>
@@ -63,6 +64,7 @@ const WhatWeDo = () => {
                 </div>
                 </div> 
             </div>
+            <BuyCoffee />
     </div>
     
     

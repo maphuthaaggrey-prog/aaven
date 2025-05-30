@@ -82,6 +82,7 @@ nav ul {
     z-index: 999;
     top: 0;
     right: 0;
+    overflow-y: auto;
     height: 100svh;
     list-style: none;
     border-radius: 20px;
@@ -526,7 +527,22 @@ select {
   object-fit: cover;
   object-position: top;
 }
-.banner001 .contact {
+.banner002 {
+  margin-top: 5em;
+  height: auto;
+  padding: 3em;
+  padding-bottom: 7em;
+  border-radius: 30px;
+  background: 
+    linear-gradient(180deg, rgba(7, 7, 7, 0.9) 0%, rgba(26, 26, 26, 0.034) 100%),
+    url(./assets/images/Free_Coffee_Cup_Mockup-psd.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: top;
+}
+.banner001 .contact, .banner002 .contact {
   display: flex;
   justify-content: end;
   margin-top: 4em;
@@ -577,7 +593,7 @@ footer .navbar {
 .explore p, .copyright p {
   font-size: 14px;
   color: grey;
-  margin: 1.4em 0 .5em;
+  margin: .3em 0 .5em;
 }
 .explore p a {
   font-size: 14px;
@@ -634,6 +650,63 @@ footer .wrap {
   font-weight: normal;
   color: rgb(187, 187, 187)
 }
+.coffee-img img {
+  width: 100%;
+  border-radius: 30px;
+  max-width: 700px;
+}
+.donate-wrapper {
+  background-color: var(--background);
+}
+.donate-wrapper h2 {
+  font-size: 5vw;
+}
+.donate-methods {
+  margin: 20px 0;
+}
+
+.donate-methods button {
+  padding: 10px 15px;
+  margin: 0 10px 0 0;
+  font-weight: 500;
+  color: white;
+  background-color: var(--background);
+  border: 1px solid #888;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.donate-methods button.active {
+  background-color: var(--primary);
+  color: black;
+  border: none;
+}
+
+.donate-content {
+  margin-top: 30px;
+}
+
+.bank-section {
+  text-align: left;
+  font-size: 12px;
+  gap: 1em;
+  background-color: var(--background);
+  border-radius: 8px;
+}
+.bank-section p, .bmc-section p {
+  font-size: 13px;
+  color: #e4e4e4;
+}
+.bank-section h3 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+
+
+
+
 @media (min-width: 550px) {
   .explore {
     margin-left: 12em;
@@ -749,6 +822,14 @@ footer .wrap {
       }
       .stack {
         width: 80%;
+      }
+      .buy-coffee {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .coffee-img img {
+        width: 100%;
       }
     
 

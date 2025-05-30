@@ -11,6 +11,7 @@ import Footer from "./assets/components/Footer"
 import FAQ from "./assets/Components/FAQ"
 import CursorFollower from './assets/Components/CursorComponent'
 import PrivacyPolicy from "./assets/Components/Privacy"
+import DonationPage from "./assets/Pages/Donate"
 function App() {
 
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/ourwork" element={<Projects />}/>
             <Route path="/faq" element={<FAQ />}/>
             <Route path="/privacy-policy" element={<PrivacyPolicy />}/>
+            <Route path="/buy-us-a-coffee" element={<DonationPage />} />
         </Routes>
       <Footer />
       </Router>
