@@ -19,7 +19,7 @@ const StartProject = () => {
   const [loading, setLoading] = useState(false);
 
   const contactScriptURL =
-    'https://script.google.com/macros/s/AKfycbxVT1Dl0LVR2Icdy6gA_aEQfEYxkiUVQhtqbLpw7GR2XMxuLijpOAt0uCCaVlFcwZDa/exec';
+    'https://script.google.com/macros/s/AKfycbybU8R0wcYJyYJ_dEqnzCcmRKMSuaeQwA-ZEFzT7yyzj4ZazmnQJg7vP9N6m5MW6elq/exec';
 
   const validateForm = () => {
     const newErrors = {};
