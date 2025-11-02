@@ -2,6 +2,7 @@ import veteranbeatx from '../images/veteranbeatx.png'
 import majitamag from '../images/majitamag.png'
 import respectmyhustle from '../images/respectmyhustle.png'
 import contella from '../images/contella.png'
+import emm from '../images/emm.png'
 
 export const projects = [
     {
@@ -39,6 +40,15 @@ export const projects = [
         type: "Personal Art Portfolio",
         tools: "React Js - Javascript - CSS",
         description: `Professional platform showcasing the creative work of a graphic designer focused on logo design, branding, and custom illustrations.`,
+    },
+    {
+        id: 5,
+        project: "EMM Services",
+        image: emm,
+        link: "https://www.emm-services.co.za/",
+        type: "Business Portfolio",
+        tools: "React Js - Javascript - CSS",
+        description: `A dynamic company dedicated to providing reliable, and sustainable solutions across key sectors including industrial cleaning, and plant hire.`,
     },
 
 ]

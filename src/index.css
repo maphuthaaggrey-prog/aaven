@@ -64,7 +64,7 @@ a:focus, a:visited, a:active {
   }
 :root {
     --background: rgb(12, 12, 12);
-    --primary: white;
+    --primary: #ffffff;
 }
 a {
     text-decoration: none;
