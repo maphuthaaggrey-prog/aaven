@@ -6,7 +6,7 @@ import emm from '../images/emm.png'
 
 export const projects = [
     {
-        id: 1,
+        id: 2,
         project: "Majita Mag",
         image: majitamag,
         tools: "React Js - Javascript - CSS",
@@ -15,7 +15,7 @@ export const projects = [
         description: "Majita Mag is a platform designed to spotlight music, lifestyle, and entertainment. ",
     },
     {
-        id: 2,
+        id: 3,
         project: "Veteran Beatx",
         image: veteranbeatx,
         link: "https://tinyurl.com/veteranbeatx",
@@ -24,7 +24,7 @@ export const projects = [
         description: `This website is a collection of music that Veteran Beatx has been part of. `,
     },
     {
-        id: 3,
+        id: 5,
         project: "Contella",
         image: contella,
         link: "https://maphuthaaggrey-prog.github.io/contella/",
@@ -42,7 +42,7 @@ export const projects = [
         description: `Professional platform showcasing the creative work of a graphic designer focused on logo design, branding, and custom illustrations.`,
     },
     {
-        id: 5,
+        id: 1,
         project: "EMM Services",
         image: emm,
         link: "https://www.emm-services.co.za/",
