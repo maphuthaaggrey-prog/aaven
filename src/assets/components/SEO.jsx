@@ -5,7 +5,7 @@ const SEO = ({
   title = "Aaven - Web Development & Digital Solutions",
   description = "Aaven, web development agency, website design, web developer, frontend developer, React developer, UI UX design, digital agency, South Africa",
   canonical = "https://www.aavenagency.co.za/",
-  image = {logo}
+  image = "/aaven logo.png"
 }) => {
   return (
     <Helmet>
