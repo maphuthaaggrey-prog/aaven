@@ -63,7 +63,7 @@ a:focus, a:visited, a:active {
     background: #464646;
   }
 :root {
-    --background: rgb(12, 12, 12);
+    --background: #0c0c0c;
     --primary: #ffffff;
 }
 a {
