@@ -9,6 +9,7 @@ import Contact from "./assets/Components/Contact"
 import Projects from "./assets/Components/Projects"
 import Footer from "./assets/components/Footer"
 import FAQ from "./assets/Components/FAQ"
+import SEO from "./assets/Components/SEO"
 import CursorFollower from './assets/Components/CursorComponent'
 import PrivacyPolicy from "./assets/Components/Privacy"
 import DonationPage from "./assets/Pages/Donate"
@@ -17,6 +18,7 @@ function App() {
   return (
     <>
     <Router>
+      <SEO />
         <Header />
         <CursorFollower />
         <ScrollToTop />
