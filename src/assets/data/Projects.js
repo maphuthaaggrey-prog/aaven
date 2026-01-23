@@ -3,8 +3,18 @@ import majitamag from '../images/majitamag.png'
 import respectmyhustle from '../images/respectmyhustle.png'
 import contella from '../images/contella.png'
 import emm from '../images/emm.png'
+import scissor from '../images/scissor.png'
 
 export const projects = [
+    {
+        id: 6,
+        project: "Scissor Security Technology",
+        image: scissor,
+        link: "https://www.scissorsecurity.co.za/",
+        type: "Business Portfolio",
+        tools: "React Js - Javascript - CSS",
+        description: `South African private company providing professional security and access solutions for homes and businesses.`,
+    },
     {
         id: 1,
         project: "EMM Services",
